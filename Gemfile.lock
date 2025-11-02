@@ -112,6 +112,7 @@ GEM
     drb (2.2.3)
     erb (4.0.4)
       cgi (>= 0.3.3)
+    error_highlight (0.7.0)
     erubi (1.13.1)
     geocoder (1.8.6)
       base64 (>= 0.1.0)
@@ -162,10 +163,13 @@ GEM
     nio4r (2.7.5)
     nokogiri (1.18.10-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.18.10-x86_64-linux-gnu)
+      racc (~> 1.4)
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
-    psych (4.0.6)
+    psych (5.2.6)
+      date
       stringio
     public_suffix (6.0.2)
     puma (7.1.0)
@@ -281,6 +285,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -291,7 +296,7 @@ DEPENDENCIES
   geocoder
   httparty
   jbuilder
-  psych (~> 4.0)
+  psych (~> 5.2)
   puma (>= 5.0)
   rails (~> 7.2.3)
   rspec-rails (~> 5.0)

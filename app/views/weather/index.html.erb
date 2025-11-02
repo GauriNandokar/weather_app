@@ -1,0 +1,25 @@
+<h1>Weather Forecast</h1>
+
+<%= form_with url: forecast_path, method: :post, local: true do |f| %>
+  <div>
+    <%= label_tag :address, "Address or ZIP code" %><br>
+    <%= text_field_tag :address, params[:address], placeholder: "e.g. 10001 or 1600 Amphitheatre Parkway, CA", size: 60 %>
+  </div>
+
+  <div style="margin-top:8px;">
+    <%= submit_tag "Get Forecast" %>
+  </div>
+<% end %>
+
+<% if flash[:alert] %>
+  <p style="color: red"><%= flash[:alert] %></p>
+<% end %>
+
+<% if @forecast.present? %>
+  <h2>Forecast for <%= @location_name %></h2>
+  <% if @from_cache %>
+    <p><em>Note: This result was pulled from cache (within last 30 minutes).</em></p>
+  <% end %>
+
+  <%= render partial: 'forecast', locals: { forecast: @forecast } %>
+<% end %>

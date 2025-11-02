@@ -1,0 +1,20 @@
+<div>
+  <h3>Current</h3>
+  <p>Temperature: <%= forecast[:current][:temp_c] %> °C (feels like <%= forecast[:current][:feels_like_c] %> °C)</p>
+  <p>Humidity: <%= forecast[:current][:humidity] %>%</p>
+  <% if forecast[:current][:weather] %>
+    <p><%= forecast[:current][:weather]['main'] %> - <%= forecast[:current][:weather]['description'] %></p>
+  <% end %>
+
+  <h3>Today</h3>
+  <p>Low: <%= forecast[:today][:temp_min_c] %> °C • High: <%= forecast[:today][:temp_max_c] %> °C</p>
+
+  <h3>Next days</h3>
+  <ul>
+    <% forecast[:daily].each do |d| %>
+      <li><strong><%= d[:dt] %></strong> — Low: <%= d[:temp_min_c] %> °C, High: <%= d[:temp_max_c] %> °C. <%= d[:weather]['description'] if d[:weather] %></li>
+    <% end %>
+  </ul>
+
+  <p style="font-size:small;color:gray">Fetched at: <%= forecast[:fetched_at].to_s %></p>
+</div>

@@ -35,6 +35,7 @@ Today
 Low: 20.07 °C • High: 20.07 °C
 
 Next days
+
 2025-11-02 — Low: 20.07 °C, High: 25.06 °C. clear sky
 
 2025-11-03 — Low: 21.4 °C, High: 32.53 °C. clear sky

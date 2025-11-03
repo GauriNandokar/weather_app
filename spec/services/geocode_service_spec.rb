@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe GeocodeService do
+RSpec.describe GeocodeService, type: :service do
   it "returns geocode info for a known address" do
     # Use a simple test double for Geocoder to avoid external call
     allow(Geocoder).to receive(:search).and_return([

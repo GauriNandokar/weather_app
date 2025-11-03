@@ -12,7 +12,7 @@ RSpec.describe "Weather", type: :request do
         temp_c: 15,
         feels_like_c: 14,
         humidity: 50,
-        weather: { 'main' => 'Clear', 'description' => 'clear sky' } # 👈 HASH not array
+        weather: { 'main' => 'Clear', 'description' => 'clear sky' } # HASH not array
       },
       today: {
         temp_min_c: 10,
@@ -23,7 +23,7 @@ RSpec.describe "Weather", type: :request do
           dt: Date.today.to_s,
           temp_min_c: 10,
           temp_max_c: 20,
-          weather: { 'description' => 'cloudy' } # 👈 HASH again
+          weather: { 'description' => 'cloudy' } # HASH again
         }
       ]
     }
@@ -39,7 +39,7 @@ RSpec.describe "Weather", type: :request do
     post forecast_path, params: { address: 'Test' }
 
     expect(response).to have_http_status(:ok)
-    expect(response.body).to include('clear sky') # ✅
+    expect(response.body).to include('clear sky')
     expect(response.body).to include('Low: 10')
   end
 end

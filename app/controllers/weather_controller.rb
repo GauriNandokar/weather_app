@@ -1,6 +1,4 @@
 class WeatherController < ApplicationController
-  # Show form
-  def index; end
 
   # Handle form submit
   def forecast

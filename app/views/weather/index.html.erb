@@ -3,7 +3,7 @@
 <%= form_with url: forecast_path, method: :post, local: true do |f| %>
   <div>
     <%= label_tag :address, "Address or ZIP code" %><br>
-    <%= text_field_tag :address, params[:address], placeholder: "e.g. 10001 or 1600 Amphitheatre Parkway, CA", size: 60 %>
+    <%= text_field_tag :address, params[:address], placeholder: "e.g. 411001 or FC Road, Pune, Maharashtra", size: 60 %>
   </div>
 
   <div style="margin-top:8px;">

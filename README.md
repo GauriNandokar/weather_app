@@ -24,14 +24,19 @@ Input: Delhi
 Output:
 
 Forecast for Delhi, India
+
 Note: This result was pulled from cache (within last 30 minutes).
 
 Current
+
 Temperature: 20.07 °C (feels like 19.91 °C)
+
 Humidity: 68%
+
 Haze - haze
 
 Today
+
 Low: 20.07 °C • High: 20.07 °C
 
 Next days
@@ -93,4 +98,4 @@ bundle exec rspec
 👩‍💻 Author
 
 Gauri Nandokar
-Ruby on Rails developer — integrating APIs, geocoding, and caching for performance optimization.
+Ruby on Rails Developer

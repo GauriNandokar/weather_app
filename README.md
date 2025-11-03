@@ -53,30 +53,42 @@ Next days
 
 Fetched at: 2025-11-02 20:40:20 UTC
 
+----------------------------------------------------------------------------------------------------------------
 Input: 400059 (By ZIP Code)
 
 Output:
 
 Forecast for 400059, Zone 6, Mumbai, Mumbai Suburban, Maharashtra, India
+
 Note: This result was pulled from cache (within last 30 minutes).
 
 Current
+
 Temperature: 27.87 °C (feels like 32.22 °C)
+
 Humidity: 83%
+
 Haze - haze
 
 Today
+
 Low: 27.87 °C • High: 27.87 °C
 
 Next days
+
 2025-11-03 — Low: 25.38 °C, High: 27.32 °C. broken clouds
+
 2025-11-04 — Low: 25.2 °C, High: 27.61 °C. light rain
+
 2025-11-05 — Low: 24.65 °C, High: 27.37 °C. broken clouds
+
 2025-11-06 — Low: 24.35 °C, High: 28.44 °C. overcast clouds
+
 2025-11-07 — Low: 25.38 °C, High: 30.09 °C. overcast clouds
 
 Fetched at: 2025-11-03 15:12:09 UTC
 
+----------------------------------------------------------------------------------
 
 ⚙️ Setup Instructions
 

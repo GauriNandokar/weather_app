@@ -36,9 +36,13 @@ Low: 20.07 °C • High: 20.07 °C
 
 Next days
 2025-11-02 — Low: 20.07 °C, High: 25.06 °C. clear sky
+
 2025-11-03 — Low: 21.4 °C, High: 32.53 °C. clear sky
+
 2025-11-04 — Low: 24.34 °C, High: 31.96 °C. clear sky
+
 2025-11-05 — Low: 23.25 °C, High: 31.85 °C. few clouds
+
 2025-11-06 — Low: 21.88 °C, High: 28.51 °C. clear sky
 
 Fetched at: 2025-11-02 20:40:20 UTC

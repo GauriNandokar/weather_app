@@ -3,6 +3,8 @@
 A Ruby on Rails app that displays current and upcoming weather forecasts using the OpenWeatherMap API.
 Supports both address and ZIP code lookup and caches results for 30 minutes to improve performance.
 
+----------------------------------------------------------------------------------------------------
+
 🚀 Features
 
 Enter address or ZIP code to view weather forecast
@@ -16,6 +18,8 @@ Caches results for 30 minutes (by address or ZIP code)
 Displays a note when results are served from cache
 
 Built with HTTParty, Geocoder, and Rails caching
+
+------------------------------------------------------------------
 
 🧠 Example Output
 
@@ -115,6 +119,8 @@ rails s
 
 Then visit 👉 http://localhost:3000
 
+------------------------------------------------------------------------
+
 💾 Caching
 
 Weather data cached for 30 minutes
@@ -128,9 +134,13 @@ rails dev:cache
 
 ⚠️ Restart the Rails server after running this command for changes to take effect.
 
+-------------------------------------------------------------------------------------------
+
 🧪 Run Tests
 
 bundle exec rspec
+
+-----------------------------------------------------------------------------------------------
 
 👩‍💻 Author
 

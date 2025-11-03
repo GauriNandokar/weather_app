@@ -51,6 +51,6 @@ group :test do
 end
 
 gem 'geocoder'
-gem "psych", "~> 4.0"
+gem "psych", "~> 5.2"
 gem 'httparty'
 gem 'dotenv-rails', groups: [:development, :test]
